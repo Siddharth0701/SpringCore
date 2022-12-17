@@ -7,9 +7,7 @@
  https://www.springframework.org/schema/beans/spring-beans.xsd
  http://www.springframework.org/schema/context
  http://www.springframework.org/schema/context/spring-context.xsd">
- 
- 
- <!-- This is our bean -->
+ <!--First Bean -->
  <bean class="com.springcore.Student" name="student1">
  <property name="studentId">
  <value>101</value>
@@ -20,6 +18,16 @@
  <property name="studentCity">
  <value>Mumbai</value>
  </property>
+ </bean>
+ 
+ <!--First Bean -->
+ <bean class="com.springcore.Student" name="student2">
+ <property name="studentId" value="102"/>
+ 
+ <property name="studentName" value="Singh"/>
+ 
+ <property name="studentCity" value="Janupur"/>
+ 
  </bean>
  
  
